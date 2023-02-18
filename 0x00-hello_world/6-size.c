@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main(void) 
 {
     int integerType;
     float floatType;
@@ -16,5 +16,5 @@ int main(void)
     printf("Size of double: %ld bytes\n", sizeof(doubleType));
     printf("Size of char: %ld byte\n", sizeof(charType));
 
-    return 0;
+    return (0);
 }
